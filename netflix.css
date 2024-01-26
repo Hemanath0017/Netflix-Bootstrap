@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+}
+.imglogo{
+  width: 10%;
+  padding-left: 150px;
+  
+  
+}
+.sign{
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  font-weight: bolder;
+}
+.eng{
+  background-color: black;
+  color: white;
+  
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  font-weight: bolder;
+  border: groove;
+  border-color: white;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.main{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+
+}
+
+.btn{
+  padding-right: 150px;
+  gap: 100px;
+}
+
+
+
+.banner {
+  height: 700px;
+  width: 100%;
+  color: white;
+  border-bottom: 5px solid grey;
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pixelify+Sans&display=swap");
+.netion {
+  font-size: 25px;
+  padding-top: 20px;
+  color: red;
+  font-family: "Oswald", sans-serif;
+  padding-left: 170px;
+  display: flex;
+}
+
+.signin-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 10px;
+  margin-left: 900px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.bannerheading {
+  font-size: 53px;
+  padding-left: 30px;
+  padding-top: 180px;
+  text-align: center;
+}
+
+.bannerpara {
+  text-align: center;
+  font-size: x-large;
+}
+.emailbutton{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.inemail{
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 150px;
+  border: groove;
+  border-color: gray;
+  background-color: black;
+}
+.gs-button{
+  background-color: red;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: 700;
+  font-size: x-large;
+
+}
+
+
+.submain {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 5px solid grey;
+}
+
+.heading {
+  font-size: 55px;
+}
+.image {
+  width: 480px;
+  height: 400px;
+}
+.para {
+  font-size: x-large;
+}
+
+.headtit{
+  color: white;
+  font-size: 40px;
+ padding-top: 50px;
+}
+.faq{
+  width: 100%;
+  height: 800px;
+  /* background-color: black; */
+  justify-content: center;
+  display: flex;
+  
+
+}
+
+.fotter {
+  list-style: none;
+  margin-left: 30px;
+}
+
+ul.fotter a {
+  color: white;
+  text-transform: none;
+}
+button.gs-button a{
+  color: white;
+  text-decoration: none;
+  
+}
