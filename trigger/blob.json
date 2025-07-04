@@ -13,7 +13,7 @@
 		],
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
-			"blobPathBeginsWith": "/output/blobs/",
+			"blobPathBeginsWith": "/input/blobs/",
 			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/b033b64f-4e57-4691-b976-604c093d3d82/resourceGroups/Hemu/providers/Microsoft.Storage/storageAccounts/hema2",
