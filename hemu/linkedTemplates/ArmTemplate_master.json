@@ -23,10 +23,6 @@
 			"type": "string",
 			"defaultValue": "https://learn12.dfs.core.windows.net/"
 		},
-		"blob_properties_typeProperties_scope": {
-			"type": "string",
-			"defaultValue": "/subscriptions/b033b64f-4e57-4691-b976-604c093d3d82/resourceGroups/Hemu/providers/Microsoft.Storage/storageAccounts/hema2"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -83,9 +79,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"blob_properties_typeProperties_scope": {
-						"value": "[parameters('blob_properties_typeProperties_scope')]"
 					}
 				}
 			},

@@ -16,9 +16,6 @@
 		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"value": "https://learn12.dfs.core.windows.net/"
-		},
-		"blob_properties_typeProperties_scope": {
-			"value": "/subscriptions/b033b64f-4e57-4691-b976-604c093d3d82/resourceGroups/Hemu/providers/Microsoft.Storage/storageAccounts/hema2"
 		}
 	}
 }
